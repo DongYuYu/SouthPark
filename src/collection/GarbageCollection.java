@@ -6,5 +6,19 @@ public class GarbageCollection {
         super.finalize();
         System.out.println("I'm collected.");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
