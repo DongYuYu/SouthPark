@@ -1,6 +1,6 @@
 public class Character {
 
-    int life;
+    int life; //make some comments
     int stagmia;
 
 
