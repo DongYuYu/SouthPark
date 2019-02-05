@@ -1,5 +1,7 @@
 import collection.GarbageCollection;
 
+
+import extension.Inheritance;
 public class Test {
 
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class Test {
 
         Character hero2 = new Character();
 
+        System.out.println(hero1.life);
         hero1.attack(hero2);
 
 
@@ -20,7 +23,22 @@ public class Test {
 
         // Garbage Collection
         GarbageCollection gc = new GarbageCollection();
+        System.out.println(gc.value);
         gc = null;
         System.gc();
+
+
+
+
+        // wrapper
+        Integer i = 10;
+        int p = i.intValue();
+        String t = "10";
+
+
+        Float f = Float.parseFloat(t);
+        System.out.println(f);
+
+
     }
 }

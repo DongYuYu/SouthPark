@@ -1,6 +1,6 @@
 public class Character {
 
-    int life;
+    protected int life;
     int stagmia;
 
 
