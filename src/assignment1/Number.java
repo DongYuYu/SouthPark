@@ -151,12 +151,15 @@ public class Number {
         return true;
     }
     public static void main(String[] args) {
-
-        int n = 1;
+        Object a;
+        int n = 10;
         Number f = new Number(n);
-        System.out.println(f.isPalindrom());
-//        for (int i : f.f) {
-//            System.out.println(i);
-//        }
+        System.out.println(Number.class.getName());
+
+        f.factor();
+        //System.out.println(f.isPalindrom());
+        for (int i : f.f) {
+            System.out.println(i);
+        }
     }
 }
